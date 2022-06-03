@@ -87,7 +87,7 @@ export default function Signup() {
       className='alert alert-info'
       style={{ display: success ? '' : 'none' }}
     >
-      New account is created. Please <Link to='/signin'>Signin</Link>.
+      New account is created. Please <Link to='/signin'>Sign in</Link>.
     </div>
   );
 
@@ -176,8 +176,8 @@ export default function Signup() {
 
   return (
     <Layout
-      title='Signup page'
-      description='Signup to MERN E-commerce App'
+      title='Sign up page'
+      description='Sign up for yoShop'
       className='container col-md-8 offset-md-2'
     >
       {signUpForm()}
