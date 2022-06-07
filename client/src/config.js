@@ -1,1 +1,1 @@
-export const API = 'https://yoshopvv1.herokuapp.com/api' 
+export const API = 'https://yoshopvv2.herokuapp.com/api' 
